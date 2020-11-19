@@ -1,0 +1,10 @@
+/*Header Cells will be Orange or an other color
+text will be white or an other color*/
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #EF5016;
+    color: white;
+}
