@@ -8,6 +8,13 @@
 	<script src="https://cdn.datatables.net/plug-ins/1.10.15/sorting/stringMonthYear.js"></script>
 
 <!--JavaScript functions for the Table -->
+<!-- Uncaught TypeError: n[m] is undefined for the folowing function JavaScript-->
+<!-- Uncaught TypeError: i is undefined for the folowing function JavaScript-->
+<!-- The folowing script defines the column number where there are dates to sort.
+ If this number exeeds the number of columns actualy present in the table,
+  one of the preceeding errors mentioned will occure. 
+  The other one occures when the column number doesn't match the actual column where dates are stored.-->
+<!-- Specifique table sort-->
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#sort").DataTable({
